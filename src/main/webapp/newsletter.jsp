@@ -62,25 +62,49 @@
     .blog-post a:hover {
       text-decoration: underline;
     }
+
+    form input[type="email"] {
+      padding: 10px;
+      width: 70%;
+      border: none;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+
+    form button {
+      padding: 10px 20px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #0056b3;
+    }
   </style>
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
   <div class="container">
     <h1>Stories and Interviews</h1>
     <p>Subscribe to learn about new product features, the latest technology, solutions, and updates.</p>
-    <form>
-      <input type="email" placeholder="Enter your email">
+    
+    <!-- FORM: POST TO SERVLET -->
+    <form method="post" action="newsletter">
+      <input type="email" name="email" placeholder="Enter your email" required>
       <button type="submit">Subscribe</button>
     </form>
 
-    <h2>All blog posts</h2>
+    <h2 class="mt-4">All blog posts</h2>
 
     <div class="blog-post">
       <img src="https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Bill Walsh leadership lessons">
       <h2>Bill Walsh leadership lessons</h2>
-      <p>Learn the secrets of leadership from alegendary coach who transformed the San Francisco 49ers into a winning team. Discover the principles that guided his success and how they can be applied in various aspects of life.</p>
+      <p>Learn the secrets of leadership from a legendary coach who transformed the San Francisco 49ers into a winning team. Discover the principles that guided his success and how they can be applied in various aspects of life.</p>
       <a href="#">Read more</a>
     </div>
 
@@ -98,7 +122,8 @@
       <a href="#">Read more</a>
     </div>
   </div>
-  <footer class="footer">
+
+  <footer class="footer mt-5">
     <div class="container">
       <div class="row">
         <div class="col-md-4">

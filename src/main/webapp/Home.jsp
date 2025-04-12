@@ -25,7 +25,7 @@
                 <img alt="Blog image" class="w-full h-40 object-cover rounded-lg mb-4" src="https://storage.googleapis.com/a1aa/image/7bu40XYw36bdnoq4vY80m1zf05pzdxtT-RD4GME31U0.jpg" />
                 <h3 class="text-xl font-semibold mb-2">Taste of Sweet</h3>
                 <p class="text-gray-400 mb-4">Provide quick, healthy recipes that can be prepared in advance.</p>
-                <a class="text-blue-500 hover:underline" href="#">Read more</a>
+                <a class="text-blue-500 hover:underline" href="https://www.ftc.gov/business-guidance/blog">Read more</a>
                 <div class="mt-4 flex justify-between">
                     <button class="text-gray-400 hover:text-white">👍 Like</button>
                     <button class="text-gray-400 hover:text-white">🔄 Share</button>
@@ -36,7 +36,7 @@
                 <img alt="Blog image" class="w-full h-40 object-cover rounded-lg mb-4" src="https://images.pexels.com/photos/9242811/pexels-photo-9242811.jpeg?auto=compress&cs=tinysrgb&w=600" />
                 <h3 class="text-xl font-semibold mb-2">Tech Innovations</h3>
                 <p class="text-gray-400 mb-4">Exploring the latest trends in technology and innovation.</p>
-                <a class="text-blue-500 hover:underline" href="#">Read more</a>
+                <a class="text-blue-500 hover:underline" href="https://edublogs.org/">Read more</a>
                 <div class="mt-4 flex justify-between">
                     <button class="text-gray-400 hover:text-white">👍 Like</button>
                     <button class="text-gray-400 hover:text-white">🔄 Share</button>
@@ -47,7 +47,7 @@
                 <img alt="Blog image" class="w-full h-40 object-cover rounded-lg mb-4" src="https://images.pexels.com/photos/30770033/pexels-photo-30770033/free-photo-of-energetic-runners-participating-in-outdoor-marathon.jpeg?auto=compress&cs=tinysrgb&w=600" />
                 <h3 class="text-xl font-semibold mb-2">Healthy Living</h3>
                 <p class="text-gray-400 mb-4">Tips on maintaining a healthy and balanced lifestyle.</p>
-                <a class="text-blue-500 hover:underline" href="#">Read more</a>
+                <a class="text-blue-500 hover:underline" href="https://www.ftc.gov/business-guidance/blog">Read more</a>
                 <div class="mt-4 flex justify-between">
                     <button class="text-gray-400 hover:text-white">👍 Like</button>
                     <button class="text-gray-400 hover:text-white">🔄 Share</button>
@@ -64,7 +64,7 @@
                 <img alt="Business image" class="w-full h-40 object-cover rounded-lg mb-4" src="https://images.pexels.com/photos/8348627/pexels-photo-8348627.jpeg?auto=compress&cs=tinysrgb&w=600" />
                 <h3 class="text-xl font-semibold mb-2">Startup Success</h3>
                 <p class="text-gray-400 mb-4">Insights on how startups can grow and succeed.</p>
-                <a class="text-blue-500 hover:underline" href="#">Read more</a>
+                <a class="text-blue-500 hover:underline" href="https://business.amazon.in/en/discover-more/blog">Read more</a>
                  <div class="mt-4 flex justify-between">
                     <button class="text-gray-400 hover:text-white">👍 Like</button>
                     <button class="text-gray-400 hover:text-white">🔄 Share</button>
@@ -75,7 +75,7 @@
                 <img alt="Business image" class="w-full h-40 object-cover rounded-lg mb-4" src="https://images.pexels.com/photos/5716052/pexels-photo-5716052.jpeg?auto=compress&cs=tinysrgb&w=600" />
                 <h3 class="text-xl font-semibold mb-2">Market Trends</h3>
                 <p class="text-gray-400 mb-4">Understanding the latest market trends and economy shifts.</p>
-                <a class="text-blue-500 hover:underline" href="#">Read more</a>
+                <a class="text-blue-500 hover:underline" href="https://www.coursera.org/in/articles/marketing-blogs">Read more</a>
                  <div class="mt-4 flex justify-between">
                     <button class="text-gray-400 hover:text-white">👍 Like</button>
                     <button class="text-gray-400 hover:text-white">🔄 Share</button>
@@ -86,7 +86,7 @@
                 <img alt="Business image" class="w-full h-40 object-cover rounded-lg mb-4" src="https://images.pexels.com/photos/8370426/pexels-photo-8370426.jpeg?auto=compress&cs=tinysrgb&w=600" />
                 <h3 class="text-xl font-semibold mb-2">Investment Tips</h3>
                 <p class="text-gray-400 mb-4">Best practices for smart investments and financial planning.</p>
-                <a class="text-blue-500 hover:underline" href="#">Read more</a>
+                <a class="text-blue-500 hover:underline" href="https://www.investindia.gov.in/team-india-blogs">Read more</a>
                  <div class="mt-4 flex justify-between">
                     <button class="text-gray-400 hover:text-white">👍 Like</button>
                     <button class="text-gray-400 hover:text-white">🔄 Share</button>
@@ -103,7 +103,7 @@
                 <img alt="Business image" class="w-full h-40 object-cover rounded-lg mb-4" src="https://images.pexels.com/photos/159866/books-book-pages-read-literature-159866.jpeg?auto=compress&cs=tinysrgb&w=600" />
                 <h3 class="text-xl font-semibold mb-2">Startup Success</h3>
                 <p class="text-gray-400 mb-4">Insights on how startups can grow and succeed.</p>
-                <a class="text-blue-500 hover:underline" href="#">Read more</a>
+                <a class="text-blue-500 hover:underline" href="https://blogs.worldbank.org/en/education">Read more</a>
                  <div class="mt-4 flex justify-between">
                     <button class="text-gray-400 hover:text-white">👍 Like</button>
                     <button class="text-gray-400 hover:text-white">🔄 Share</button>
@@ -114,7 +114,7 @@
                 <img alt="Business image" class="w-full h-40 object-cover rounded-lg mb-4" src="https://images.pexels.com/photos/6595038/pexels-photo-6595038.jpeg?auto=compress&cs=tinysrgb&w=600" />
                 <h3 class="text-xl font-semibold mb-2">Market Trends</h3>
                 <p class="text-gray-400 mb-4">Understanding the latest market trends and economy shifts.</p>
-                <a class="text-blue-500 hover:underline" href="#">Read more</a>
+                <a class="text-blue-500 hover:underline" href="https://www.lcp.com/en/investment/insights/blogs">Read more</a>
                  <div class="mt-4 flex justify-between">
                     <button class="text-gray-400 hover:text-white">👍 Like</button>
                     <button class="text-gray-400 hover:text-white">🔄 Share</button>
@@ -125,7 +125,7 @@
                 <img alt="Business image" class="w-full h-40 object-cover rounded-lg mb-4" src="https://images.pexels.com/photos/9873987/pexels-photo-9873987.jpeg?auto=compress&cs=tinysrgb&w=600" />
                 <h3 class="text-xl font-semibold mb-2">Investment Tips</h3>
                 <p class="text-gray-400 mb-4">Best practices for smart investments and financial planning.</p>
-                <a class="text-blue-500 hover:underline" href="#">Read more</a>
+                <a class="text-blue-500 hover:underline" href="https://www.safalniveshak.com/blog/">Read more</a>
                  <div class="mt-4 flex justify-between">
                     <button class="text-gray-400 hover:text-white">👍 Like</button>
                     <button class="text-gray-400 hover:text-white">🔄 Share</button>
@@ -144,10 +144,10 @@
         <div>
             <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
             <ul>
-                <li><a class="text-gray-400 hover:text-white" href="#">Home</a></li>
-                <li><a class="text-gray-400 hover:text-white" href="#">Blog</a></li>
-                <li><a class="text-gray-400 hover:text-white" href="#">About</a></li>
-                <li><a class="text-gray-400 hover:text-white" href="#">Newsletter</a></li>
+                <li><a class="text-gray-400 hover:text-white" href="Home.jsp">Home</a></li>
+                <li><a class="text-gray-400 hover:text-white" href="Home.jsp">Blog</a></li>
+                <li><a class="text-gray-400 hover:text-white" href="loginHome.jsp">About</a></li>
+                <li><a class="text-gray-400 hover:text-white" href="newsletter.jsp">Newsletter</a></li>
             </ul>
         </div>
         <div>

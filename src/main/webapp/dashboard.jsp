@@ -20,7 +20,7 @@
 <body class="bg-gray-100">
     <div class="sidebar">
         <h2 class="text-white text-center text-xl font-bold mb-4">LEKHMANCH</h2>
-        <a href="#">Dashboard</a>
+        <a href="dashboard">Dashboard</a>
         <a href="#">User Activity</a>
         <a href="#">Admin Panel</a>
         <a href="dashboardSetting.jsp">Settings</a>
@@ -61,7 +61,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <jsp:include page="#" />
+                <!-- to be included -->
                 </tbody>
             </table>
         </div>
@@ -79,7 +79,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <jsp:include page="#" />
+                <!-- to be included -->
                 </tbody>
             </table>
         </div>

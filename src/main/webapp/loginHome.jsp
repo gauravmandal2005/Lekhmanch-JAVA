@@ -52,7 +52,7 @@
                         <p class="text-muted">Sunday, 1 Jan 2023</p>
                         <h5 class="card-title">Bill Walsh leadership lessons</h5>
                         <p class="card-text">Learn how to build a winning team.</p>
-                        <a href="#" class="btn btn-sm btn-primary">Research</a>
+                        <a href="https://www.angazacenter.org/news/blogs/?gad_source=1&gclid=Cj0KCQjw782_BhDjARIsABTv_JAAEZM52LqBUqw_1ZWREdkUDpOhqxYSRLh2haDA_aDxwrXAbcswUQoaAhGhEALw_wcB" class="btn btn-sm btn-primary">Research</a>
                     
                     </div>
                 </div>
@@ -64,7 +64,7 @@
                         <p class="text-muted">Sunday, 1 Jan 2023</p>
                         <h5 class="card-title">PM mental models</h5>
                         <p class="card-text">Mental models for complex processes.</p>
-                        <a href="#" class="btn btn-sm btn-primary">Research</a>
+                        <a href="https://edublogs.org/" class="btn btn-sm btn-primary">Research</a>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@
                         <p class="text-muted">Sunday, 1 Jan 2023</p>
                         <h5 class="card-title">What is Wireframing?</h5>
                         <p class="card-text">Introduction to Wireframing principles.</p>
-                        <a href="#" class="btn btn-sm btn-primary">Research</a>
+                        <a href="https://world-education-blog.org/" class="btn btn-sm btn-primary">Research</a>
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@
                         <p class="text-muted">Sunday, 1 Jan 2023</p>
                         <h5 class="card-title">Bill Walsh leadership lessons</h5>
                         <p class="card-text">Learn how to build a winning team.</p>
-                        <a href="#" class="btn btn-sm btn-primary">Research</a>
+                        <a href="https://www.yeatoday.org/bulletin?gad_source=1&gclid=Cj0KCQjw782_BhDjARIsABTv_JDwQPXaAbrIm817IvOhu3Apjc7su6hPLw8MWaDgUyjfiUk1M0b3GLcaAntYEALw_wcB" class="btn btn-sm btn-primary">Research</a>
                     </div>
                 </div>
             </div>
@@ -101,7 +101,7 @@
                         <p class="text-muted">Sunday, 1 Jan 2023</p>
                         <h5 class="card-title">PM mental models</h5>
                         <p class="card-text">Mental models for complex processes.</p>
-                        <a href="#" class="btn btn-sm btn-primary">Research</a>
+                        <a href="https://www.siegemedia.com/strategy/business-blog-examples" class="btn btn-sm btn-primary">Research</a>
                     </div>
                 </div>
             </div>
@@ -112,7 +112,7 @@
                         <p class="text-muted">Sunday, 1 Jan 2023</p>
                         <h5 class="card-title">What is Wireframing?</h5>
                         <p class="card-text">Introduction to Wireframing principles.</p>
-                        <a href="#" class="btn btn-sm btn-primary">Research</a>
+                        <a href="https://www.ftc.gov/business-guidance/blog" class="btn btn-sm btn-primary">Research</a>
                     </div>
                 </div>
             </div>
