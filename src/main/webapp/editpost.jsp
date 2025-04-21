@@ -1,8 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="java.util.*, java.sql.*, java.io.*" %>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>LEKHMANCH</title>
+    <title>Edit Post</title>
     <style>
         body {
             background-color: #121212;
@@ -158,31 +159,45 @@
         <a href="loginHome.jsp">Home</a>
     </div>
 </div>
-
+<%
+    List<Map<String, String>> postList = (List<Map<String, String>>) request.getAttribute("postList");
+    if (postList != null) {
+        for (Map<String, String> post : postList) {
+%>
 <!-- Content -->
 <div class="content">
+	<h1>Edit Post</h1>
     <form action="PostServlet" method="post" enctype="multipart/form-data">
         <h2>
             <input type="text" name="title" placeholder="Title..." 
+            		value="<%= post.get("title") %>"
                    style="background-color:#121212; border:none; border-bottom:2px solid #4CAF50; color:white; font-size:30px; width:100%; max-width:800px; text-align:center;" required />
         </h2>
-      	<input type="hidden" name="action" value="insert">
-		
+        <input type="hidden" name="action" value="update">
+        <input type="hidden" name="action" value="<%= post.get("user_email") %>">
+        <input type="hidden" name="id" value="<%= post.get("id") %>">
+
+
         <!-- Button container -->
         <div class="button-container">
             <label class="add-image-button">
                 <i class="fas fa-image"></i> Add Image
-                <input type="file" name="image" accept="image/*" style="display:none;" required />
+                <input type="file" name="image" value="<%= post.get("image_path") %>" accept="image/*" style="display:none;" required />
             </label>
         </div>
 
-        <textarea class="story-textarea" name="story" placeholder="Tell a Story..." required></textarea>
+        <input type="text" class="story-textarea" name="story" value="<%= post.get("story") %>" required>
 
         <div style="margin-top: 20px;">
             <button type="submit" class="add-image-button">Post</button>
         </div>
     </form>
 </div>
+<%
+        }
+       
+    }
+%>
 
 <!-- Footer -->
 <footer class="footer">

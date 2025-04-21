@@ -1,5 +1,6 @@
 
 
+import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.Cookie;
@@ -78,14 +79,17 @@ public class existinguser extends HttpServlet {
 
                 // Store user information in session
                 session.setAttribute("user", sanitizedUser);
-
+                session.setAttribute("email", email);
                 // Create a cookie with sanitized username
                 Cookie userCookie = new Cookie("user", sanitizedUser);
                 userCookie.setMaxAge(1800); // 30-minute expiry
                 response.addCookie(userCookie);
 
                 // Redirect based on role
-                response.sendRedirect("user".equals(role) ? "loginHome.jsp" : "adminDashboard.jsp");
+                String targetPage = "user".equals(role) ? "loginHome.jsp" : "loginHome.jsp";
+                RequestDispatcher dispatcher = request.getRequestDispatcher(targetPage);
+                dispatcher.forward(request, response);
+              //  response.sendRedirect("user".equals(role) ? "loginHome.jsp" : "adminDashboard.jsp");
             } else {
                 session.setAttribute("error", "Invalid email or password.");
                 response.sendRedirect("login.jsp");
@@ -93,7 +97,7 @@ public class existinguser extends HttpServlet {
         } catch (Exception e) {
             e.printStackTrace();
             session.setAttribute("error", "Database connection error: " + e.getMessage());
-            response.sendRedirect("dashboard");
+            response.sendRedirect("login.jsp");
         } finally {
             try {
                 if (rs != null) rs.close();

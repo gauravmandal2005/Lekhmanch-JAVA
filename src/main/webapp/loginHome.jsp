@@ -1,5 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    
+ <% 
+ 	HttpSession sessions = request.getSession(false);
+ 	if(session == null || session.getAttribute("user") == null){
+ 		response.sendRedirect("login.jsp");
+ 		return;
+ 	}
+ 	String username = (String) session.getAttribute("user");
+ %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +23,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="menu.jsp">Hi, Gaurav</a>
+            <a class="navbar-brand" href="profile.jsp">Hi, <%= username %></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>

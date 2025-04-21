@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<element>
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" version="6.0">
-  <display-name>LekhManch</display-name>
+  <display-name>Home.jsp</display-name>
   <welcome-file-list>
     <welcome-file>Home.jsp</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>Home.jsp</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   <servlet>
     <servlet-name>signup</servlet-name>
     <jsp-file>/signup.jsp</jsp-file>
   </servlet>
-    <servlet>
+  <servlet>
     <servlet-name>success</servlet-name>
     <jsp-file>/success.jsp</jsp-file>
   </servlet>
-    <servlet-mapping>
+  <servlet-mapping>
     <servlet-name>success</servlet-name>
     <url-pattern>/success</url-pattern>
   </servlet-mapping>
@@ -80,8 +81,6 @@
     <servlet-name>ForgotPasswordServlet</servlet-name>
     <url-pattern>/ForgotPasswordServlet</url-pattern>
   </servlet-mapping>
-
-
   <servlet>
     <description></description>
     <display-name>PostServlet</display-name>
@@ -102,10 +101,19 @@
     <servlet-name>DashboardServlet</servlet-name>
     <url-pattern>/DashboardServlet</url-pattern>
   </servlet-mapping>
-
-<servlet-mapping>
+  <servlet-mapping>
     <servlet-name>DashboardServlet</servlet-name>
     <url-pattern>/dashboard</url-pattern>
-</servlet-mapping>
-  
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>NewsletterServlet</display-name>
+    <servlet-name>NewsletterServlet</servlet-name>
+    <servlet-class>NewsletterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NewsletterServlet</servlet-name>
+    <url-pattern>/NewsletterServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
+</element>

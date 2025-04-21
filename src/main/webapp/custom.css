@@ -1,0 +1,52 @@
+/* Profile page specific styles */
+.avatar-upload {
+    position: relative;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.avatar-upload .avatar-preview {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #f8f9fa;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Tab content styling */
+.tab-content {
+    padding: 15px 0;
+}
+
+/* List group items in profile */
+.list-group-item-action:hover {
+    background-color: #f8f9fa;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .profile-sidebar {
+        order: 2;
+        margin-top: 20px;
+    }
+    
+    .profile-content {
+        order: 1;
+    }
+}
+
+/* Custom button styles */
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
+
+/* Form validation */
+.is-invalid {
+    border-color: #dc3545;
+}
+
+.invalid-feedback {
+    color: #dc3545;
+    font-size: 0.875em;
+}@charset "UTF-8";

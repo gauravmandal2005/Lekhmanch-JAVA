@@ -25,7 +25,7 @@ public class ForgotPasswordServlet extends HttpServlet {
             if (rs.next()) {
                 // Optional: you can redirect to a page where user resets password
                 HttpSession session = request.getSession();
-                session.setAttribute("email", email);
+                session.setAttribute("email", email); 
                 response.sendRedirect("resetpassword.jsp");
             } else {
                 request.setAttribute("message", "Email not found.");
